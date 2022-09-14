@@ -1,0 +1,133 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arimo", sans-serif;
+  color: #fff;
+}
+p {
+  margin: 0;
+}
+
+.name {
+  color: white;
+  position: absolute;
+  font-size: 170px;
+  font-weight: 600;
+}
+.button-name {
+  margin: 0;
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+}
+.D3 {
+  position: absolute;
+  left: 1400px;
+  top: 0px;
+  width: 520px;
+  height: 250px;
+  transition: 0.5s;
+  color: #fff;
+}
+.D3:hover {
+  background-color: tomato;
+  color: #000;
+}
+.media {
+  position: absolute;
+  left: 1400px;
+  top: 250px;
+  width: 520px;
+  height: 250px;
+  transition: 0.5s;
+  color: #fff;
+}
+.media:hover {
+  background-color: #f74f92;
+  color: #000;
+}
+.web {
+  position: absolute;
+  left: 1400px;
+  top: 500px;
+  width: 520px;
+  height: 250px;
+  transition: 0.5s;
+  color: #fff;
+}
+.web:hover {
+  background-color: #ffd000;
+  color: #000;
+}
+
+/* sub-page */
+.sub-body {
+  background-color: #000;
+}
+.sub-fix {
+  position: fixed;
+}
+.sub-title {
+  width: 300px;
+  height: 100px;
+  color: #fff;
+  background-color: tomato;
+  border: #fff solid 1px;
+  box-sizing: border-box;
+  position: absolute;
+}
+.sub-fix-1 {
+  width: 3000px;
+  height: 100px;
+  background-color: #000;
+  border-bottom: #fff solid 1px;
+  box-sizing: border-box;
+}
+.sub-fix-2 {
+  position: fixed;
+  width: 300px;
+  height: 1080px;
+  border-right: #fff solid 1px;
+  box-sizing: border-box;
+  display: inline;
+}
+.sub-inner {
+  padding: 100px 0 0 300px;
+}
+.sub-contents {
+  margin: 50px;
+}
+.sub-cont-title {
+  font-size: 80px;
+  font-weight: 600px;
+  display: inline;
+}
+.sub-year {
+  font-size: 40px;
+  display: inline;
+  margin-left: 10px;
+}
+.sub-main {
+  height: 615px;
+  margin-bottom: 30px;
+}
+.sub-thumbnail {
+  float: left;
+}
+.sub-info {
+  float: right;
+  width: 550px;
+  height: 615px;
+  border-left: #fff solid 1px;
+}
+.sub-detail {
+  height: 200px;
+  padding-bottom: 30px;
+  border-bottom: #fff solid 1px;
+}
+.sub-detail img {
+  height: 200px;
+}
+.sub-detail img:hover {
+}

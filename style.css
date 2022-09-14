@@ -8,6 +8,9 @@ body {
 p {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 
 .name {
   color: white;
@@ -117,8 +120,9 @@ p {
 }
 .sub-info {
   float: right;
-  width: 550px;
-  height: 615px;
+  width: 400px;
+  height: 460px;
+  padding: 30px;
   border-left: #fff solid 1px;
 }
 .sub-detail {

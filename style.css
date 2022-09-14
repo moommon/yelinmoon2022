@@ -9,6 +9,7 @@ p {
   margin: 0;
 }
 a {
+  color: #fff;
   text-decoration: none;
 }
 
@@ -74,12 +75,35 @@ a {
 .sub-title {
   width: 300px;
   height: 100px;
-  color: #fff;
-  background-color: tomato;
-  border: #fff solid 1px;
+
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px 0;
+  border-right: #fff solid 1px;
+  border-bottom: #fff solid 1px;
   box-sizing: border-box;
   position: absolute;
 }
+.sub-3d {
+  color: tomato;
+  background-color: tomato;
+  transition: 0.5s;
+}
+.sub-ma {
+  color: #f74f92;
+  background-color: #f74f92;
+  transition: 0.5s;
+}
+.sub-p5 {
+  color: #ffd000;
+  background-color: #ffd000;
+  transition: 0.5s;
+}
+.sub-title:hover {
+  background-color: #000;
+}
+
 .sub-fix-1 {
   width: 3000px;
   height: 100px;
@@ -87,7 +111,52 @@ a {
   border-bottom: #fff solid 1px;
   box-sizing: border-box;
 }
+.sub-fix-1 ul {
+  display: flex;
+  color: #fff;
+  position: absolute;
+  left: 1250px;
+}
+.sub-fix-1 ul li {
+  list-style: none;
+  margin: 24px;
+  font-size: 20px;
+}
+.selected-3d {
+  color: tomato;
+  font-weight: 600;
+}
+.selected-ma {
+  color: #f74f92;
+  font-weight: 600;
+}
+.selected-p5 {
+  color: #ffd000;
+  font-weight: 600;
+}
+.sub-menu-3d:hover {
+  background-color: tomato;
+  color: #000;
+}
+.sub-menu-3d {
+  transition: 0.3s;
+}
+.sub-menu-ma {
+  transition: 0.3s;
+}
+.sub-menu-ma:hover {
+  background-color: #f74f92;
+  color: #000;
+}
+.sub-menu-p5 {
+  transition: 0.3s;
+}
+.sub-menu-p5:hover {
+  background-color: #ffd000;
+  color: #000;
+}
 .sub-fix-2 {
+  top: 100px;
   position: fixed;
   width: 300px;
   height: 1080px;
@@ -112,7 +181,7 @@ a {
   margin-left: 10px;
 }
 .sub-main {
-  height: 615px;
+  height: 520px;
   margin-bottom: 30px;
 }
 .sub-thumbnail {

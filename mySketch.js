@@ -15,6 +15,11 @@ function draw() {
   push(); //main artboard
 
   rect(0, 0, 1400, 750);
+
+  fill(255);
+  noStroke();
+  textSize(100);
+  text("YELIN MOON", 200, 400);
   pop();
 
   push(); //3D button
@@ -38,4 +43,6 @@ function draw() {
   noFill();
   stroke(255);
   ellipse(mouseX, mouseY, 80);
+  textSize(30);
+  text("Hi", mouseX, mouseY);
 }

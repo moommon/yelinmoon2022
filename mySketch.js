@@ -1,6 +1,10 @@
+let moving;
+
 function setup() {
   createCanvas(1920, 1080);
 
+  angleMode(DEGREES);
+  textFont("Arimo");
   //frameRate(24);
 }
 
@@ -20,6 +24,7 @@ function draw() {
   noStroke();
   textSize(100);
   text("YELIN MOON", 200, 400);
+
   pop();
 
   push(); //3D button

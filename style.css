@@ -182,6 +182,16 @@ a {
   box-sizing: border-box;
   display: inline;
 }
+.sub-name {
+  color: rgb(49, 49, 49);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: absolute;
+  font-size: 70px;
+  font-weight: 600;
+  margin: 55px 15px;
+  left: -32px;
+}
 .sub-inner {
   padding: 100px 0 0 300px;
 }
